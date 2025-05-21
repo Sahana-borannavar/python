@@ -1,0 +1,6 @@
+Age,Salary,Gender,Department
+25.0,50000.0,Male,IS
+30.0,54000.0,Female,
+,50000.0,,CS
+35.0,,Female,EC
+,62000.0,male,EEE

@@ -113,3 +113,10 @@ for num in li:
     if num<=smallest :
         smallest=num
 print(smallest)
+
+for i in range(1,6,2):
+    print(i)
+
+
+x=5/2
+print(type(x))

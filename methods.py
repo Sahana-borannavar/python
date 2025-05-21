@@ -1,6 +1,4 @@
-from tkinter.font import names
-
-from requests import delete
+#append(),pop(),remove(),insert(),extend() methods
 
 li=[10,20]
 li.append([30,40])
@@ -23,7 +21,9 @@ li.extend([60,70,80])
 print(li)
 
 
-'''
+
+
+
 #list methods
 li=[]
 for i in range(10):
@@ -47,10 +47,11 @@ if ele in li:
     print('element position: ',position)
 else:
     print(-1)
-    
-'''
 
-'''
+
+
+
+
 #tuple methods
 tu=(10,20,30,40,50)
 ele=int(input('enter the elements: '))
@@ -58,9 +59,11 @@ if ele in tu:
     print('The index of element is:',tu.index(ele))
 else:
     print(ele,'is not found in tuple')
-'''
 
-'''
+
+
+
+
 #set methods
 s=set()
 for i in range(5):
@@ -76,7 +79,9 @@ pos=int(input('enter the element to find position: '))
 position= list(s).index(pos)
 if pos in s:
     print('element position: ', position)
-'''
+
+
+
 
 
 #dictionary methods
@@ -93,12 +98,13 @@ di={
     'city':city,
     'pincode':pin
 }
-print('\nContents:')
+print('Contents:')
 for i,j in di.items():
     print(i,'=',j)
 new_name=input('enter the new name: ')
 di['name']=new_name
-print('\ncontents')
+print('\n')
+print('Updated contents: ')
 for i,j in di.items():
     print(i,'=',j)
 key=input('enter the key to remove: ')
@@ -113,7 +119,12 @@ if value in di.values():
 else:
     print('value not found')
 di['state'] = input('Enter state: ')
-
+print('\n')
 print('Updated Dictionary: ')
 for i,j in di.items():
     print(i,'=',j)
+
+
+
+import cmath
+print(cmath.factorial(6))

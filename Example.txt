@@ -1,0 +1,2 @@
+This is file I/O operation
+We are crating a file
